@@ -1,5 +1,4 @@
 # Refactoring Patterns - Ruby
-___
 
 > Learning is the only thing that's constant, so keep learning and keep going!
 
