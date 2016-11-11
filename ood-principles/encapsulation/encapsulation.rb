@@ -33,7 +33,7 @@ class Person
 
 end
 
-class Screencaster < Person
+class Teacher < Person
 
 	def initialize first_name, last_name, gender, tools
 		super first_name, last_name, gender

@@ -33,14 +33,14 @@ class Animal
 
 end
 
-class Bugs
+class Alien
 
 	def initialize type
 		@type = type
 	end
 
 	def talk
-		"Can bugs talk ?!?"
+		"Can aliens talk ?!?"
 	end
 
 end

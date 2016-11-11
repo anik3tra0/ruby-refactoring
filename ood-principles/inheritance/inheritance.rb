@@ -16,8 +16,8 @@ class Person
 
 end
 
-# Screencaster Inherits properties from Person
-class Screencaster < Person
+# Teacher Inherits properties from Person
+class Teacher < Person
 
 	def initialize first_name, last_name, gender, tools
 		super first_name, last_name, gender

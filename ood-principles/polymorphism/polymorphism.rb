@@ -19,12 +19,12 @@ class Person
 
 		# By commenting and raising an custom exception. we are emphasizing that the present method can be called on an instance of any of Person Classes' Subclasses'
 
-		# E.g. Screencaster.first.present will give you a desired output
+		# E.g. Teacher.first.present will give you a desired output
 	end
 
 end
 
-class Screencaster < Person
+class Teacher < Person
 
 	def initialize first_name, last_name, gender, tools
 		super first_name, last_name, gender
@@ -32,7 +32,7 @@ class Screencaster < Person
 	end
 
 	def present
-		%Q{Hello, welcome to DCT Learn Ups! My name is #{full_name} and I'll be your guide!}
+		%Q{Hello, welcome to DCT Learn Ups! My name is #{full_name} and I'll be your teacher!}
 	end
 
 end
