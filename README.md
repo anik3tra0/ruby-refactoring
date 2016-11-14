@@ -11,5 +11,4 @@
 2. Encapsulation
 3. Polymorphism
 4. Duck Typing
-
-### Code Smells
+5. Code Smells
